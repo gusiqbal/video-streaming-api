@@ -1,0 +1,13 @@
+# Binaries
+/bin/
+*.exe
+
+# Storage (video files)
+storage/videos/
+
+# Environment
+.env
+.env.local
+
+# Go
+vendor/

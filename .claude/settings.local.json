@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/bagusmuhammad/uddtest/testsocket/internal/config \\\\ *)"
+    ],
+    "additionalDirectories": [
+      "/Users/bagusmuhammad/uddtest/testsocket/internal"
+    ]
+  }
+}
