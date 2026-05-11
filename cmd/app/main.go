@@ -44,6 +44,8 @@ func main() {
 
 	r := gin.Default()
 	r.Use(corsMiddleware())
+	// Catch-all OPTIONS so browser preflight requests always hit the CORS middleware.
+	r.OPTIONS("/*path", func(c *gin.Context) {})
 
 	api := r.Group("/api/videos")
 	{

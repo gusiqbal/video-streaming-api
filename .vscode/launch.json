@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to dlv (testsocket)",
+      "type": "go",
+      "request": "attach",
+      "mode": "remote",
+      "remotePath": "${workspaceFolder}/testsocket",
+      "port": 2345,
+      "host": "127.0.0.1",
+      "showLog": true,
+      "trace": "log"
+    }
+  ]
+}
